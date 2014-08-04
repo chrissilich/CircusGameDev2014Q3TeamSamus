@@ -1,24 +1,36 @@
 ﻿#pragma strict
-// public class = TrashInteraction
-// Debug.Log(TrashInteraction.transform.position.x);
-// public var trashOpen = false;
-// public var trashPositionX = gameObject.transform.position.x;
-// public var trashPositionZ = gameObject.transform.position.z;
-// public var rickyScript : rickyScript;
-// private var boxCol :BoxCollider;
+
+var LevelController:LevelController;
+
+function Start () {
+	LevelController = gameObject.Find("LevelController").GetComponent("LevelController");
+}
+
+function Update () {
+
+}
+private var trashTriggered:boolean = true;
+function OnTriggerEnter() {
+	if(trashTriggered){
+		Debug.Log("trash"); 
+		trashTriggered = false;
+
+		//To grab the animator controller from Ricky
+		// var animController:Animator = gameObject.Find("Ricky").GetComponent("Animator");
+		// animController.SetBool("CollectTrash", true);
+	}
+	InvokeRepeating("addAwareness", 0.1, 1);
+}
+
+function addAwareness () {
+	LevelController.giveAware(1);
+}
 
 
-// function Update () {
-// 	//Check Ricky's position. If it is within the bounds of the x and z
-// 	//coordinates of the trash then trigger this function
-// 	boxCol = rickyScript.GetComponent(BoxCollider);
-// 	if(ricky.position.x >= 2 &&
-// 	   ricky.position.x <= 4 && 
-// 	   ricky.position.z >= 2 &&
-// 	   ricky.position.z <= 4 ) {
-
-// 		Debug.Log("at can");
-// 	}
-// 	// Debug.Log(trashPositionZ);
-
-// }
+function OnTriggerExit() {
+	if(!trashTriggered){
+		trashTriggered = true;
+		LevelController.givePoints(1);
+		CancelInvoke("addAwareness");
+	}
+}
