@@ -30,7 +30,7 @@ function addAwareness () {
 function OnTriggerExit() {
 	if(!trashTriggered){
 		trashTriggered = true;
-		LevelController.givePoints(1);
+		LevelController.giveTrash(1);
 		CancelInvoke("addAwareness");
 	}
 }
