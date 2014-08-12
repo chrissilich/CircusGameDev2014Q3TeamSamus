@@ -7,7 +7,7 @@ function Start() {
 
 
 function OnGUI () {
-	guiText.text = LevelController.currentScore.ToString();
+	guiText.text = LevelController.currentTrash.ToString();
 }
 
 function Update () {
