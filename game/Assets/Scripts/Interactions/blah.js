@@ -1,8 +1,8 @@
-// Scene: Title Scene
-// Hierarchy: Main Camera + Title Screen Object
-// Title Screen Object: has Script TitleSceneController
-// TitleScreneController: Buttons (See Title Screen Script) + Scene Change (in script as well)
+//Trashcans and PorchLights MUST be connected by a script on the trashcan that
+//refers to the specific PorchLights
 
-
-
-// Create a TitleScreenController Scene Change in GameOverController (and star conrtoller in future)
+//Open and Closed and Inbetween sprites of cans MUST be connected to each other
+//with similar names with different numbers, so that you can use one to trigger
+//another. The trigger for the change should run on the closed can, with all 
+//other can set to SetActive(false). Then the open can should include a trigger
+//collider and the script to trigger the TrashInteraction script.
