@@ -40,7 +40,7 @@ function OnTriggerExit() {
 			//How does this repeat for 3 points? Or do I need a new particle?
 		} else if (this.tag =="Decoy Trash") {
 			var animatorComponent:Animator = this.GetComponent("Animator");
-			LevelController.giveTrash(5);
+			LevelController.giveTrash(0);
 		}
 		trashTriggered = true;
 		CancelInvoke("addAwareness");
