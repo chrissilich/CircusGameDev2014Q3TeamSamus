@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: cdcc9dd821c174127997ebe7c3fc3cf1
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: House - Front-03
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

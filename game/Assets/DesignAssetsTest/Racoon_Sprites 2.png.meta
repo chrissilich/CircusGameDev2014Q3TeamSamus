@@ -1,6 +1,14 @@
 fileFormatVersion: 2
 guid: f0ba257f117e345c292c3b354940aee0
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Racoon_Sprites 2_0
+    21300002: Racoon_Sprites 2_1
+    21300004: Racoon_Sprites 2_2
+    21300006: Racoon_Sprites 2_3
+    21300008: Racoon_Sprites 2_4
+    21300010: Racoon_Sprites 2_5
+    21300012: Racoon_Sprites 2_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

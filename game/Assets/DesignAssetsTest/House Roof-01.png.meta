@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: 06fe3fcb0818a4d35871693334afd0ba
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: House Roof-01
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
