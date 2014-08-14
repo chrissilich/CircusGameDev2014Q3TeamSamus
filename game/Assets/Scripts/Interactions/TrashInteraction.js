@@ -16,7 +16,6 @@ function Start () {
 private var trashTriggered:boolean = false;
 function OnTriggerEnter() {
 	if(!trashTriggered){
-		Debug.Log("trash"); 
 		InvokeRepeating("addAwareness", 0.1, 1);
 
 		//To grab the animator controller from Ricky
@@ -33,11 +32,26 @@ function addAwareness () {
 
 function OnTriggerExit() {
 	if(!trashTriggered){
+		if(this.tag =="Normal Trash") {
+			LevelController.giveTrash(1);
+			particleT.Play();
+		} else if(this.tag =="Locked Trash") {
+			LevelController.giveTrash(3);
+			particleT.Play();
+			//How does this repeat for 3 points? Or do I need a new particle?
+		} else if (this.tag =="Decoy Trash") {
+			LevelController.giveTrash(0);
+		}
 		trashTriggered = true;
-		LevelController.giveTrash(1);
 		CancelInvoke("addAwareness");
-		particleT.Play();
 	}
+	Debug.Log(this.tag); 
 }
 
+
+
+
+
+//SWITCHING ANIMATION STATE
+// animatorComponent.SetInteger("state", 0);
 

@@ -48,3 +48,6 @@ function cacheTimer () {
 	}
 }
 
+function closeCacheModal() {
+	cache.SetActive(false);
+}
