@@ -58,7 +58,7 @@ TextureImporter:
         y: 2
         width: 386
         height: 331
-      alignment: 1
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking left_1
@@ -68,7 +68,7 @@ TextureImporter:
         y: 11
         width: 374
         height: 322
-      alignment: 1
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking left_2
@@ -78,7 +78,7 @@ TextureImporter:
         y: 11
         width: 333
         height: 322
-      alignment: 1
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking left_3
@@ -88,7 +88,7 @@ TextureImporter:
         y: 8
         width: 376
         height: 325
-      alignment: 1
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking left_4
@@ -98,7 +98,7 @@ TextureImporter:
         y: 8
         width: 362
         height: 325
-      alignment: 1
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking left_5
@@ -108,7 +108,7 @@ TextureImporter:
         y: 8
         width: 377
         height: 325
-      alignment: 1
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking left_6
@@ -118,7 +118,7 @@ TextureImporter:
         y: 8
         width: 339
         height: 325
-      alignment: 1
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking left_7
@@ -128,7 +128,7 @@ TextureImporter:
         y: 5
         width: 394
         height: 328
-      alignment: 1
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
