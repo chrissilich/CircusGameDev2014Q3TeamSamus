@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: b27643adf0a3c6e4b89b466342c91bc5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: walking_left_2_0
+    21300002: walking_left_2_1
+    21300004: walking_left_2_2
+    21300006: walking_left_2_3
+    21300008: walking_left_2_4
+    21300010: walking_left_2_5
+    21300012: walking_left_2_6
+    21300014: walking_left_2_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: walking_left_2_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1106
+        width: 851
+        height: 735
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_left_2_1
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1124
+        width: 827
+        height: 717
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_left_2_2
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1123
+        width: 741
+        height: 718
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_left_2_3
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 1123
+        width: 837
+        height: 718
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_left_2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 798
+        height: 737
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_left_2_5
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 162
+        width: 830
+        height: 725
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_left_2_6
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 169
+        width: 749
+        height: 722
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walking_left_2_7
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 162
+        width: 858
+        height: 725
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
