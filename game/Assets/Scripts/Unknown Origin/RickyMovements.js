@@ -30,16 +30,16 @@ function Update () {
 		// Debug.Log("Y = " + moveY);
 		if(moveX < 50 && moveY <50){ //Bottom Left Quadrant
 			//face down and left
-			Debug.Log("Bottom Left");
+			// Debug.Log("Bottom Left");
 		} else if(moveX < 50 && moveY >= 50) { //Top Left Quadrant
 			//face up and left
-			Debug.Log("Top Left");
+			// Debug.Log("Top Left");
 		} else if(moveX >=50 && moveY < 50) { //Bottom Right Quadrant
 			//face down and right
-			Debug.Log("Bottom Right");
+			// Debug.Log("Bottom Right");
 		} else if (moveX >=50 && moveY >= 50) { //Top Right Quadrant
 			//face up and right
-			Debug.Log("Top Right");
+			// Debug.Log("Top Right");
 		}
 
 
