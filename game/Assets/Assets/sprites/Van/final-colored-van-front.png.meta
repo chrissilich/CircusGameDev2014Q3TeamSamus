@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 7c50fff52ad321f47b24df41e2a4d113
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: final-colored-van-front_0
+    21300002: final-colored-van-front_1
+    21300004: final-colored-van-front_2
+    21300006: final-colored-van-front_3
+    21300008: final-colored-van-front_4
+    21300010: final-colored-van-front_5
+    21300012: final-colored-van-front_6
+    21300014: final-colored-van-front_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: final-colored-van-front_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 7
+        width: 200
+        height: 386
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-front_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 7
+        width: 209
+        height: 373
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-front_2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 7
+        width: 225
+        height: 340
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-front_3
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 7
+        width: 207
+        height: 373
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-front_4
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 7
+        width: 199
+        height: 386
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-front_5
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 7
+        width: 211
+        height: 371
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-front_6
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 7
+        width: 234
+        height: 340
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-front_7
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 7
+        width: 215
+        height: 371
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
