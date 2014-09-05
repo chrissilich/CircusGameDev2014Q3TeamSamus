@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b27643adf0a3c6e4b89b466342c91bc5
+guid: de103b2fcd8ec7d4b8f504523ad78396
 TextureImporter:
   fileIDToRecycleName:
     21300000: walking_left_2_0
@@ -30,7 +30,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
     aniso: 1
@@ -54,82 +54,82 @@ TextureImporter:
     - name: walking_left_2_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 1106
-        width: 851
-        height: 735
+        x: 7
+        y: 1108
+        width: 848
+        height: 731
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_left_2_1
       rect:
         serializedVersion: 2
-        x: 870
+        x: 871
         y: 1124
-        width: 827
-        height: 717
+        width: 826
+        height: 716
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_left_2_2
       rect:
         serializedVersion: 2
-        x: 1732
-        y: 1123
-        width: 741
-        height: 718
+        x: 1735
+        y: 1124
+        width: 735
+        height: 715
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_left_2_3
       rect:
         serializedVersion: 2
-        x: 2596
+        x: 2599
         y: 1123
-        width: 837
-        height: 718
+        width: 834
+        height: 716
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_left_2_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 164
-        width: 798
-        height: 737
+        width: 800
+        height: 720
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_left_2_5
       rect:
         serializedVersion: 2
-        x: 867
-        y: 162
-        width: 830
-        height: 725
+        x: 868
+        y: 164
+        width: 828
+        height: 720
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_left_2_6
       rect:
         serializedVersion: 2
-        x: 1731
-        y: 169
-        width: 749
-        height: 722
+        x: 1734
+        y: 170
+        width: 746
+        height: 718
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_left_2_7
       rect:
         serializedVersion: 2
-        x: 2596
-        y: 162
-        width: 858
-        height: 725
+        x: 2597
+        y: 163
+        width: 859
+        height: 722
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

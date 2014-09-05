@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: afcedfa6a06879e49933537c8a2eb6c6
+guid: 4533448cce9aff942846158edc8fe70e
 TextureImporter:
   fileIDToRecycleName:
     21300000: FRONT_headswith_left_facing_2_0
@@ -24,7 +24,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
     aniso: 1
@@ -48,22 +48,22 @@ TextureImporter:
     - name: FRONT_headswith_left_facing_2_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 27
-        width: 1534
-        height: 1316
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 40
+        y: 28
+        width: 1531
+        height: 1312
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: FRONT_headswith_left_facing_2_1
       rect:
         serializedVersion: 2
-        x: 1854
-        y: 27
-        width: 1325
-        height: 1316
+        x: 1848
+        y: 28
+        width: 1322
+        height: 1312
       alignment: 9
-      pivot: {x: .408881366, y: .0137611842}
+      pivot: {x: .420710057, y: .503195763}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

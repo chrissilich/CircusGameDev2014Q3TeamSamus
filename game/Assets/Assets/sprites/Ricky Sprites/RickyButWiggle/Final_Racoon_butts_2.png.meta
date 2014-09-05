@@ -1,12 +1,11 @@
 fileFormatVersion: 2
-guid: b89e901ed6b2a734e85b35fae8ea5335
+guid: 625265b31f837af42913c12e2ba02335
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Final_Racoon_butts_2
-    21300002: Final_Racoon_butts_2_0
-    21300004: Final_Racoon_butts_2_1
-    21300006: Final_Racoon_butts_2_2
-    21300008: Final_Racoon_butts_2_3
+    21300000: Final_Racoon_butts_2_0
+    21300002: Final_Racoon_butts_2_1
+    21300004: Final_Racoon_butts_2_2
+    21300006: Final_Racoon_butts_2_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -27,7 +26,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
     aniso: 1
@@ -51,42 +50,42 @@ TextureImporter:
     - name: Final_Racoon_butts_2_0
       rect:
         serializedVersion: 2
-        x: 95
-        y: 48
-        width: 600
-        height: 1307
+        x: 96
+        y: 50
+        width: 597
+        height: 1306
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Final_Racoon_butts_2_1
       rect:
         serializedVersion: 2
-        x: 895
+        x: 896
         y: 48
-        width: 605
-        height: 1266
+        width: 597
+        height: 1263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Final_Racoon_butts_2_2
       rect:
         serializedVersion: 2
-        x: 1695
-        y: 48
-        width: 605
-        height: 1294
+        x: 1696
+        y: 50
+        width: 597
+        height: 1289
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Final_Racoon_butts_2_3
       rect:
         serializedVersion: 2
-        x: 2474
+        x: 2476
         y: 48
-        width: 599
-        height: 1272
+        width: 596
+        height: 1271
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

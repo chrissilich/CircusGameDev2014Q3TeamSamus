@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ead5f27e198319f4795ab6b5ee1a010d
+guid: 06be3790d2273fe458c61bbcf5e90caa
 TextureImporter:
   fileIDToRecycleName:
     21300000: Walking_Backwards_0
@@ -30,7 +30,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 1024
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
     aniso: 1
@@ -54,82 +54,82 @@ TextureImporter:
     - name: Walking_Backwards_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 1192
-        width: 700
-        height: 669
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 8
+        y: 1193
+        width: 695
+        height: 667
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_1
       rect:
         serializedVersion: 2
-        x: 760
-        y: 1137
-        width: 709
-        height: 731
-      alignment: 9
-      pivot: {x: .480015934, y: .147307977}
+        x: 788
+        y: 1150
+        width: 636
+        height: 709
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_2
       rect:
         serializedVersion: 2
-        x: 1567
-        y: 1123
-        width: 594
-        height: 738
-      alignment: 9
-      pivot: {x: .48588258, y: .147716492}
+        x: 1568
+        y: 1126
+        width: 590
+        height: 733
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_3
       rect:
         serializedVersion: 2
-        x: 2345
-        y: 1148
-        width: 641
-        height: 713
-      alignment: 9
-      pivot: {x: .519623399, y: .105851054}
+        x: 2348
+        y: 1151
+        width: 636
+        height: 709
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_4
       rect:
         serializedVersion: 2
-        x: 5
-        y: 286
-        width: 700
-        height: 644
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 8
+        y: 289
+        width: 695
+        height: 640
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_5
       rect:
         serializedVersion: 2
-        x: 786
-        y: 217
-        width: 641
-        height: 713
-      alignment: 9
-      pivot: {x: .500000358, y: .0999702811}
+        x: 788
+        y: 220
+        width: 636
+        height: 709
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_6
       rect:
         serializedVersion: 2
-        x: 1567
-        y: 195
-        width: 594
-        height: 738
-      alignment: 9
-      pivot: {x: .5, y: .102265231}
+        x: 1568
+        y: 196
+        width: 590
+        height: 734
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_7
       rect:
         serializedVersion: 2
-        x: 2345
-        y: 220
-        width: 641
-        height: 713
-      alignment: 9
-      pivot: {x: .5, y: .0823285505}
+        x: 2348
+        y: 221
+        width: 636
+        height: 709
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

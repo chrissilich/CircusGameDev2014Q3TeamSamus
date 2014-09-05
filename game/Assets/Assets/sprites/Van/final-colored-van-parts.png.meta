@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 979f4831a3398b74b98e6820df1400ed
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: final-colored-van-parts_0
+    21300002: final-colored-van-parts_1
+    21300004: final-colored-van-parts_2
+    21300006: final-colored-van-parts_3
+    21300008: final-colored-van-parts_4
+    21300010: final-colored-van-parts_5
+    21300012: final-colored-van-parts_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: final-colored-van-parts_0
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1944
+        width: 1039
+        height: 303
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-parts_1
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 1866
+        width: 547
+        height: 319
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-parts_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 259
+        width: 1022
+        height: 1380
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-parts_3
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 1600
+        width: 589
+        height: 113
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-parts_4
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1174
+        width: 613
+        height: 371
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-parts_5
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 849
+        width: 1021
+        height: 199
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: final-colored-van-parts_6
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 445
+        width: 1062
+        height: 106
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
