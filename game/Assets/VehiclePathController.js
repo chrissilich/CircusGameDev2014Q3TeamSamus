@@ -1,24 +1,29 @@
 ﻿#pragma strict
-private var velocity = 0.25;
-private var currentPosX:int;
-private var currentPosZ:int;
-private var newPosX:int;
-private var newPosZ:int;
-private var direction;
+public var frozenMode:boolean = false;
+public var velocity:float = 5;;
+private var currentPosX:float;
+private var currentPosZ:float;
+private var newPosX:float;
+private var newPosZ:float;
+private var direction:int = 2;
 private var startingPositionX = 281;
 private var startingPositionZ = 196;
 private var vehicleRotY;
 
+
 function Start () {
+	if(frozenMode) {
+		return;
+	}
 	this.transform.position.x = startingPositionX;
 	this.transform.position.z = startingPositionZ;
 	vehicleRotY = this.transform.rotation.y;
-	direction = 2;
 	Debug.Log(vehicleRotY);
 }
 
 
 function FixedUpdate () {
+	//Debug.Log(direction);
 	if(direction == 1) {
 		//Set necessary variables
 		this.transform.rotation.y = -0.7;
@@ -50,8 +55,4 @@ function FixedUpdate () {
 	} else {
 		Debug.Log("Something went wrong");
 	}
-
-
-
-
 }

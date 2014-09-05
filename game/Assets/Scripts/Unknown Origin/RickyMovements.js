@@ -3,10 +3,27 @@
 var walkSpeed: int = 5;
 var jumpHeight: int = 10;
 
+var animatorComponent:Animator;
+
+
+/* ricky animation
+
+state
+0: idle
+1: walking
+2: in trash
+3: ?
+
+direction
+1: toward
+2: away
+
+*/
 
 
 function Start () {
-
+	animatorComponent = this.GetComponent("Animator");
+	Debug.Log(animatorComponent);
 }
 
 // Click To Move script
@@ -30,16 +47,27 @@ function Update () {
 		// Debug.Log("Y = " + moveY);
 		if(moveX < 50 && moveY <50){ //Bottom Left Quadrant
 			//face down and left
-			// Debug.Log("Bottom Left");
+			Debug.Log("Bottom Left");
+			animatorComponent.SetInteger("direction", 1);
+			transform.rotation.y = 1;
+
 		} else if(moveX < 50 && moveY >= 50) { //Top Left Quadrant
 			//face up and left
-			// Debug.Log("Top Left");
+			Debug.Log("Top Left");
+			animatorComponent.SetInteger("direction", 2);
+			transform.rotation.y = 1;
+
 		} else if(moveX >=50 && moveY < 50) { //Bottom Right Quadrant
 			//face down and right
-			// Debug.Log("Bottom Right");
+			Debug.Log("Bottom Right");
+			animatorComponent.SetInteger("direction", 1);
+			transform.rotation.y = 0;
 		} else if (moveX >=50 && moveY >= 50) { //Top Right Quadrant
 			//face up and right
-			// Debug.Log("Top Right");
+			Debug.Log("Top Right");
+			animatorComponent.SetInteger("direction", 2);
+			transform.rotation.y = 0;
+
 		}
 
 
@@ -49,10 +77,14 @@ function Update () {
 			var targetPoint = ray.GetPoint(hitdist);
 			targetPosition = ray.GetPoint(hitdist);
 			var targetRotation = Quaternion.LookRotation(targetPoint - transform.position);
-			transform.rotation = targetRotation;
 			transform.position = Vector3.Lerp (transform.position, targetPosition, Time.deltaTime * .5);
 
+			Debug.Log("ricky is moving");
+			animatorComponent.SetInteger("state", 1);
 
 		}
+	} else {
+		Debug.Log("ricky not moving");
+		animatorComponent.SetInteger("state", 0);
 	}
 }

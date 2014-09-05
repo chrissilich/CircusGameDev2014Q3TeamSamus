@@ -10,9 +10,11 @@ function Start () {
 }
 
 
-function OnTriggerEnter() {
-		Debug.Log("streetlight"); 
+function OnTriggerEnter(other: Collider) {
+	if(other.gameObject.tag == "Player"){
+		Debug.Log("lights triggered by ricky");
 		InvokeRepeating("addAwareness", 0.1, 1);
+	}
 }
 
 function addAwareness () {
