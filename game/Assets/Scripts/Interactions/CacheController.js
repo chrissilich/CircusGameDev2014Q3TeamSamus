@@ -1,11 +1,9 @@
 #pragma strict
 private var cache:GameObject;
-private var animatorComponent:Animator;
 
 function Start () {
 	cache = gameObject.Find("CacheModal");
 	cache.SetActive(false);
-	animatorComponent = this.GetComponent("Animator");
 
 
 }
@@ -22,7 +20,6 @@ function OnTriggerEnter() {
 	if(!cacheTriggered) {
 		Debug.Log("Cache Open");
 		cache.SetActive(true);
-		animatorComponent.SetInteger("state", 0);
 	} else {
 		//do nothing, it hasn't been 10 secs since they left, 
 		//so this is probably not a trip to actually drop off trash,
@@ -35,7 +32,6 @@ function OnTriggerExit() {
 		Debug.Log("Cache Close");
 		cacheTriggered = true;
 		InvokeRepeating("cacheTimer", 0.1, 1);
-		animatorComponent.SetInteger("state", 1);
 	} else {
 		//do nothing, it hasn't been 10 secs since they left, 
 		//so this is probably not a trip to actually drop off trash,
