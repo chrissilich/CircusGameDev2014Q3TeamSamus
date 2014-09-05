@@ -1,5 +1,5 @@
 ﻿#pragma strict
-private var velocity = 1;
+private var velocity = 0.25;
 private var currentPosX:int;
 private var currentPosZ:int;
 private var newPosX:int;
@@ -13,7 +13,7 @@ function Start () {
 	this.transform.position.x = startingPositionX;
 	this.transform.position.z = startingPositionZ;
 	vehicleRotY = this.transform.rotation.y;
-	direction = 4;
+	direction = 2;
 	Debug.Log(vehicleRotY);
 }
 
