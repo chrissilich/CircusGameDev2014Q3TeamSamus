@@ -4,8 +4,6 @@ private var cache:GameObject;
 function Start () {
 	cache = gameObject.Find("CacheModal");
 	cache.SetActive(false);
-
-
 }
 
 

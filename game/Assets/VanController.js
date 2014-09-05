@@ -1,9 +1,8 @@
 ﻿#pragma strict
 
-function Start () {
-
-}
-
-function Update () {
-
+function OnTriggerEnter() {
+	Debug.Log("Hit By Car");
+	//Hit By Car and Killed
+	//Trigger change to Game Over Scene
+	// Application.LoadLevel("GameOverScene");
 }

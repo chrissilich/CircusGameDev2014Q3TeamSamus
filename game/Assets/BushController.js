@@ -2,7 +2,6 @@
 
 var LevelController:LevelController;
 var particleA:ParticleSystem;
-var ricky;
 
 function Start () {
 	LevelController = gameObject.Find("LevelController").GetComponent("LevelController");
