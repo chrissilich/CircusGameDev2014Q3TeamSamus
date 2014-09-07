@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 625265b31f837af42913c12e2ba02335
+guid: 47b528d8c82a5a444ae20402528001a3
 TextureImporter:
   fileIDToRecycleName:
     21300000: Final_Racoon_butts_2_0
@@ -50,42 +50,42 @@ TextureImporter:
     - name: Final_Racoon_butts_2_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 50
-        width: 597
-        height: 1306
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 0
+        y: 0
+        width: 1000
+        height: 1276
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Final_Racoon_butts_2_1
       rect:
         serializedVersion: 2
-        x: 896
-        y: 48
-        width: 597
-        height: 1263
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1000
+        y: 0
+        width: 1000
+        height: 1276
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Final_Racoon_butts_2_2
       rect:
         serializedVersion: 2
-        x: 1696
-        y: 50
-        width: 597
-        height: 1289
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2000
+        y: 0
+        width: 1000
+        height: 1276
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Final_Racoon_butts_2_3
       rect:
         serializedVersion: 2
-        x: 2476
-        y: 48
-        width: 596
-        height: 1271
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 3000
+        y: 0
+        width: 1000
+        height: 1276
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

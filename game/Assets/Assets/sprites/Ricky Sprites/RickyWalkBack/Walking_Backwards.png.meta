@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 06be3790d2273fe458c61bbcf5e90caa
+guid: 58125f9a69421074a873aba8da357bf5
 TextureImporter:
   fileIDToRecycleName:
     21300000: Walking_Backwards_0
@@ -54,82 +54,82 @@ TextureImporter:
     - name: Walking_Backwards_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 1193
-        width: 695
-        height: 667
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 991
+        width: 1000
+        height: 991
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_1
       rect:
         serializedVersion: 2
-        x: 788
-        y: 1150
-        width: 636
-        height: 709
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 1016
+        y: 981
+        width: 1000
+        height: 991
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_2
       rect:
         serializedVersion: 2
-        x: 1568
-        y: 1126
-        width: 590
-        height: 733
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 2000
+        y: 991
+        width: 1000
+        height: 991
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_3
       rect:
         serializedVersion: 2
-        x: 2348
-        y: 1151
-        width: 636
-        height: 709
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 3000
+        y: 991
+        width: 1000
+        height: 991
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_4
       rect:
         serializedVersion: 2
-        x: 8
-        y: 289
-        width: 695
-        height: 640
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 0
+        width: 1000
+        height: 991
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_5
       rect:
         serializedVersion: 2
-        x: 788
-        y: 220
-        width: 636
-        height: 709
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 1000
+        y: 0
+        width: 1000
+        height: 991
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_6
       rect:
         serializedVersion: 2
-        x: 1568
-        y: 196
-        width: 590
-        height: 734
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 2000
+        y: 0
+        width: 1000
+        height: 991
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walking_Backwards_7
       rect:
         serializedVersion: 2
-        x: 2348
-        y: 221
-        width: 636
-        height: 709
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 3000
+        y: 0
+        width: 1000
+        height: 991
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

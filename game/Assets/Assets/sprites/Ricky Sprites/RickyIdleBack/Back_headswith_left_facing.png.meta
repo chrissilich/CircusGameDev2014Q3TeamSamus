@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c855bda6e4bc9c74eb647ea2f192ca8f
+guid: b598324626931514b8b2fdba608235f1
 TextureImporter:
   fileIDToRecycleName:
     21300000: Back_headswith_left_facing_0
@@ -24,7 +24,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 2048
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
     aniso: 1
@@ -48,22 +48,22 @@ TextureImporter:
     - name: Back_headswith_left_facing_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 17
-        width: 682
-        height: 653
+        x: 0
+        y: 0
+        width: 1000
+        height: 991
       alignment: 9
-      pivot: {x: .126032099, y: .496789485}
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Back_headswith_left_facing_1
       rect:
         serializedVersion: 2
-        x: 815
-        y: 17
-        width: 603
-        height: 653
-      alignment: 4
-      pivot: {x: 0, y: .5}
+        x: 1000
+        y: 0
+        width: 1000
+        height: 991
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

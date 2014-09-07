@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4533448cce9aff942846158edc8fe70e
+guid: 1015e713a691f4f4e8f4e49eb14c2dcd
 TextureImporter:
   fileIDToRecycleName:
     21300000: FRONT_headswith_left_facing_2_0
@@ -48,22 +48,22 @@ TextureImporter:
     - name: FRONT_headswith_left_facing_2_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 28
-        width: 1531
-        height: 1312
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 0
+        y: 0
+        width: 1000
+        height: 991
+      alignment: 9
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: FRONT_headswith_left_facing_2_1
       rect:
         serializedVersion: 2
-        x: 1848
-        y: 28
-        width: 1322
-        height: 1312
+        x: 1000
+        y: 0
+        width: 1000
+        height: 991
       alignment: 9
-      pivot: {x: .420710057, y: .503195763}
+      pivot: {x: .5, y: .0900000036}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
