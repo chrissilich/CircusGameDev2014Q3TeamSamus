@@ -49,24 +49,24 @@ function Update () {
 			//face down and left
 			Debug.Log("Bottom Left");
 			animatorComponent.SetInteger("direction", 1);
-			transform.rotation.y = 1;
+			transform.rotation.y = 0.7075;
 
 		} else if(moveX < 50 && moveY >= 50) { //Top Left Quadrant
 			//face up and left
 			Debug.Log("Top Left");
 			animatorComponent.SetInteger("direction", 2);
-			transform.rotation.y = 1;
+			transform.rotation.y = 0.7075;
 
 		} else if(moveX >=50 && moveY < 50) { //Bottom Right Quadrant
 			//face down and right
 			Debug.Log("Bottom Right");
 			animatorComponent.SetInteger("direction", 1);
-			transform.rotation.y = 0;
+			transform.rotation.y = -0.7075;
 		} else if (moveX >=50 && moveY >= 50) { //Top Right Quadrant
 			//face up and right
 			Debug.Log("Top Right");
 			animatorComponent.SetInteger("direction", 2);
-			transform.rotation.y = 0;
+			transform.rotation.y = -0.7075;
 
 		}
 
