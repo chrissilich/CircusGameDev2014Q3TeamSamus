@@ -1,8 +1,5 @@
 ﻿#pragma strict
 
-var walkSpeed: int = 5;
-var jumpHeight: int = 10;
-
 var animatorComponent:Animator;
 
 
@@ -23,7 +20,7 @@ direction
 
 function Start () {
 	animatorComponent = this.GetComponent("Animator");
-	Debug.Log(animatorComponent);
+	// Debug.Log(animatorComponent);
 }
 
 // Click To Move script
@@ -79,12 +76,19 @@ function Update () {
 			var targetRotation = Quaternion.LookRotation(targetPoint - transform.position);
 			transform.position = Vector3.Lerp (transform.position, targetPosition, Time.deltaTime * .5);
 
-			Debug.Log("ricky is moving");
+			// Debug.Log("ricky is moving");
 			animatorComponent.SetInteger("state", 1);
 
 		}
 	} else {
-		Debug.Log("ricky not moving");
+		// Debug.Log("ricky not moving");
 		animatorComponent.SetInteger("state", 0);
 	}
+}
+
+
+function inACan() {
+	//Freeze Position with rigidbody.constraints
+	Debug.Log("ricky recieved message");
+	
 }
