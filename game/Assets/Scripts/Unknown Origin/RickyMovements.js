@@ -71,6 +71,8 @@ function Update () {
 		}
 
 
+
+
 		
 
 		if (playerPlane.Raycast (ray, hitdist)) {
@@ -88,3 +90,9 @@ function Update () {
 		animatorComponent.SetInteger("state", 0);
 	}
 }
+
+// var maxVel: float = 10.0; // max absolute velocity
+
+// function FixedUpdate(){
+// 	rigidbody.velocity = Vector3.ClampMagnitude(rigidbody.velocity, maxVel);
+// }
