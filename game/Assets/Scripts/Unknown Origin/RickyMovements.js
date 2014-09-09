@@ -68,6 +68,8 @@ function Update () {
 		}
 
 
+
+
 		
 
 		if (playerPlane.Raycast (ray, hitdist)) {
@@ -86,9 +88,17 @@ function Update () {
 	}
 }
 
+<<<<<<< HEAD
 
 function inACan() {
 	//Freeze Position with rigidbody.constraints
 	Debug.Log("ricky recieved message");
 	
 }
+=======
+// var maxVel: float = 10.0; // max absolute velocity
+
+// function FixedUpdate(){
+// 	rigidbody.velocity = Vector3.ClampMagnitude(rigidbody.velocity, maxVel);
+// }
+>>>>>>> FETCH_HEAD
