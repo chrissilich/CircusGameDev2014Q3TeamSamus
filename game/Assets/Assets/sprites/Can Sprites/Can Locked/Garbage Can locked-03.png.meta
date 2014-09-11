@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 12cf20b8f8a454328ad97116939c9ae8
+guid: 60287c91241a5fb45a87e9b799ed2638
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Garbage Can locked-03
+    21300000: Garbage Can locked-03_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -32,7 +32,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -43,6 +43,16 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Garbage Can locked-03_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 36
+        width: 325
+        height: 398
+      alignment: 9
+      pivot: {x: .844189942, y: .059071891}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -5,6 +5,9 @@ var rickyInCan:RickyMovements;
 var particleT:ParticleSystem;
 var LevelController:LevelController;
 private var trashTriggered:boolean = false;
+var particleA:ParticleSystem;
+
+
 
 
 function Start() {
@@ -13,6 +16,7 @@ function Start() {
 	rickyInCan = gameObject.Find("Ricky").GetComponent("RickyMovements");
 	LevelController = gameObject.Find("LevelController").GetComponent("LevelController");
 	particleT = gameObject.Find("ParticlesAddTrash").GetComponent("ParticleSystem");
+	particleA = gameObject.Find("ParticlesAddAware").GetComponent("ParticleSystem");
 
 }
 
@@ -23,6 +27,7 @@ function OnTriggerEnter(other : Collider) {
 		Debug.Log("in can");
 		//Start Timer
 		InvokeRepeating("buttWiggleTimer", 0.1, 1);
+		trashTriggered = true;
 	}
 }
 
@@ -35,6 +40,7 @@ function buttWiggleTimer() {
 
 		//Add Awareness
 		LevelController.giveAware(1);
+		particleA.Play();
 
 		//Change sprite
 		rickyInCan.inCan = true;
@@ -47,11 +53,16 @@ function buttWiggleTimer() {
 		buttWiggleTime++;
 	} else if(buttWiggleTime == 3) {
 		Debug.Log("butt end at "+buttWiggleTime);
-		//Chnage can sprite to trash on ground (N/A to Decoys)
+		//Change can sprite to trash on ground (N/A to Decoys)
 		// animatorComponent.SetInteger("canState", 1);
 
 		//Add Trash
 		LevelController.giveTrash(0);
+
+		//Play Trash Particles
+		//None for Decoy
+		// particleT.Play(); //This is for normal
+		// InvokeRepeating("addLockedTrash", 0.1, 1); //This is for locked
 
 		//Send Message to Unfreeze
 		//Change Sprite
@@ -62,6 +73,14 @@ function buttWiggleTimer() {
 		buttWiggleTime = 0;
 		CancelInvoke("buttWiggleTimer");
 
+	}
+}
+
+var lockedCount:int = 0;
+function addLockedTrash() {
+	if(lockedCount<=4) {
+		lockedCount++;
+		particleT.Play();
 	}
 }
 

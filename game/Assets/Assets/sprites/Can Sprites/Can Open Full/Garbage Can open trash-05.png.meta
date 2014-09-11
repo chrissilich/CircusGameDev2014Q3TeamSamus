@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: ddbb9af4fc7964cda84b2febea53f798
+guid: 8853faf9cb55b5e4dbe8a4c297f4660c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Garbage Can open trash-05
+    21300000: Garbage Can open trash-05_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -32,7 +32,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -43,6 +43,16 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Garbage Can open trash-05_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 463
+        height: 476
+      alignment: 9
+      pivot: {x: .948024333, y: .0720552281}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
