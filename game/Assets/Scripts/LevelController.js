@@ -9,7 +9,7 @@ var van:GameObject;
 function Start () {
 	van = gameObject.Find("Van");
 	Debug.Log(van);
-	van.SetActive(false);
+	// van.SetActive(false);
 }
 
 function Update () {

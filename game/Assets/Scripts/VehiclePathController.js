@@ -5,7 +5,7 @@ private var currentPosX:float;
 private var currentPosZ:float;
 private var newPosX:float;
 private var newPosZ:float;
-private var direction:int = 2;
+public var direction:int = 2;
 private var startingPositionX = 281;
 private var startingPositionZ = 196;
 private var vehicleRotY;
@@ -18,12 +18,11 @@ function Start () {
 	this.transform.position.x = startingPositionX;
 	this.transform.position.z = startingPositionZ;
 	vehicleRotY = this.transform.rotation.y;
-	Debug.Log(vehicleRotY);
 }
 
 
 function FixedUpdate () {
-	//Debug.Log(direction);
+	Debug.Log(direction);
 	if(direction == 1) {
 		//Set necessary variables
 		this.transform.rotation.y = -0.7;
@@ -56,3 +55,46 @@ function FixedUpdate () {
 		Debug.Log("Something went wrong");
 	}
 }
+
+
+var truckTriggered = false;
+var leftCross = false;
+function OnTriggerEnter(other: Collider) {
+	if (!truckTriggered) {
+		//Run random direction for three way stops
+		if(other.gameObject.tag == "Cross1") {
+			var newDirection:int;
+			newDirection = Mathf.Round(Random.Range(1, 3));
+			Debug.Log("random num is "+newDirection);
+			direction = newDirection;
+			Debug.Log(direction);
+		} else if(other.gameObject.tag == "Cross2") {
+			direction = 1;
+		} else if(other.gameObject.tag == "Cross3") {
+			direction = 4;
+		} else if(other.gameObject.tag == "Cross4") {
+			direction = 2;
+		}
+		truckTriggered = true;
+	} else {
+		//do nothing
+	}
+}
+
+function OnTriggerExit() {
+	if(!leftCross) {
+		Debug.Log("leaving cross");
+
+		leftCross = true;
+	}
+}
+
+
+
+
+
+
+
+
+
+
