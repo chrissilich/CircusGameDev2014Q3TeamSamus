@@ -8,8 +8,8 @@ var buttonSkin: GUISkin;
 function OnGUI() {
 	GUI.skin = buttonSkin;
 	
- 	var groupWidth = Screen.width;
-    var groupHeight = Screen.height;
+ 	var groupWidth = 1024;
+    var groupHeight = 768;
      
     var screenWidth = Screen.width;
     var screenHeight = Screen.height;
