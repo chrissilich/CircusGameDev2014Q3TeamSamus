@@ -4,7 +4,7 @@ private var porchLight:GameObject;
 private var lightTiming:int = 0;
 
 function Start () {
-	porchLight = gameObject.Find("PorchLight-House1");
+	porchLight = gameObject.Find("PorchLight1");
 	porchLight.SetActive(false);
 }
 

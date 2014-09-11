@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 var animatorComponent:Animator;
-
+static var inCan = false;
 
 /* ricky animation
 
@@ -21,6 +21,7 @@ direction
 function Start () {
 	animatorComponent = this.GetComponent("Animator");
 	// Debug.Log(animatorComponent);
+
 }
 
 // Click To Move script
@@ -78,19 +79,26 @@ function Update () {
 			animatorComponent.SetInteger("state", 1);
 
 		}
+	} else if(inCan){
+		animatorComponent.SetInteger("state", 2);
 	} else {
-		// Debug.Log("ricky not moving");
 		animatorComponent.SetInteger("state", 0);
 	}
 }
 
-//<<<<<<< HEAD
+function outOfCan() {
+	Debug.Log("out of can");
+	animatorComponent.SetInteger("state", 0);
+}
 
 function inACan() {
 	//Freeze Position with rigidbody.constraints
-	Debug.Log("ricky recieved message");
-	
+	// Debug.Log("ricky should freeze");
 }
+
+//<<<<<<< HEAD
+
+
 //=======
 // var maxVel: float = 10.0; // max absolute velocity
 
