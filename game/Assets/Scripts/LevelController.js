@@ -5,9 +5,11 @@ public var cachedTrash:int = 0;
 public var totalScore:int = 0;
 public var totalNormal:int = 0;
 public var totalLocked:int = 0;
-
+var van:GameObject;
 function Start () {
-
+	van = gameObject.Find("Van");
+	Debug.Log(van);
+	van.SetActive(false);
 }
 
 function Update () {
@@ -24,6 +26,14 @@ function giveTrash(p:int) {
 //Add to Awareness
 function giveAware(p:int) {
 	currentAware += p;
+	if (currentAware >= 10) {
+		//TUrn on van
+		van.SetActive(true);
+		Debug.Log(van);
+	} else if(currentAware >= 15) {
+		Debug.Log("Game Over, Star Fox.");
+		Application.LoadLevel("StarScene");
+	}
 }
 
 

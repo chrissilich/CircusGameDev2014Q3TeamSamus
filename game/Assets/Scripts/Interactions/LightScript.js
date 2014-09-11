@@ -25,7 +25,7 @@ function addAwareness () {
 
 
 function OnTriggerExit() {
-		CancelInvoke("addAwareness");
+	CancelInvoke("addAwareness");
 }
 
 
