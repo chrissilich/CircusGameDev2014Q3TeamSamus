@@ -19,6 +19,7 @@ function OnTriggerEnter(other: Collider) {
 
 function addAwareness () {
 	LevelController.giveAware(1);
+	Debug.Log("give aware");
 	particleA.Play();
 }
 
