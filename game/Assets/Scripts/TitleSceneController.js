@@ -1,6 +1,5 @@
 ﻿#pragma strict
 
-var buttonTexture: Texture2D;
 var buttonStyle: GUIStyle;
 var buttonSkin: GUISkin;
 
@@ -20,19 +19,19 @@ function OnGUI() {
     GUI.BeginGroup( Rect( groupX, groupY, groupWidth, groupHeight ) );
     GUI.Box( Rect( 0, 0, groupWidth, groupHeight ), "Level Select" );
      
-    if ( GUI.Button( Rect( 10, 30, 100, 30 ), "PLAY" ) )
+    if ( GUI.Button( Rect( 510, 230, 100, 30 ), "PLAY" ) )
     {
         Application.LoadLevel("Level1jell");
     }
-    if ( GUI.Button( Rect( 10, 70, 100, 30 ), "HIGH SCORE" ) )
+    if ( GUI.Button( Rect( 510, 270, 100, 30 ), "HIGH SCORE" ) )
     {
         Application.LoadLevel(2);
     }
-    if ( GUI.Button( Rect( 10, 110, 100, 30 ), "SETTINGS" ) )
+    if ( GUI.Button( Rect( 510, 310, 100, 30 ), "SETTINGS" ) )
     {
         Application.LoadLevel(3);
     }
-    if ( GUI.Button( Rect( 10, 150, 100, 30 ), "CREDITS" ) )
+    if ( GUI.Button( Rect( 510, 350, 100, 30 ), "CREDITS" ) )
     {
         Application.LoadLevel(4);
     }
