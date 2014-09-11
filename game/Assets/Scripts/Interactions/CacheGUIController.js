@@ -46,7 +46,7 @@ function OnGUI () {
     }
 
     //Make the third button
-    if (GUI.Button (Rect ((Camera.main.pixelWidth/2)-75,(Camera.main.pixelHeight/2.5)+35+125,209,48), "Close", closeBtn)) {
+    if (GUI.Button (Rect ((Camera.main.pixelWidth/2)-75,(Camera.main.pixelHeight/2.5)+35+125,209,48), "", closeBtn)) {
         //User doesn't want to do either
         //Close Modal
         CacheController.closeCacheModal();
