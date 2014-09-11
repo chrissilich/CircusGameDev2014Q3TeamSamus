@@ -2,6 +2,9 @@
 public var currentTrash:int = 0;
 public var currentAware:int = 0;
 public var cachedTrash:int = 0;
+public var totalScore:int = 0;
+public var totalNormal:int = 0;
+public var totalLocked:int = 0;
 
 function Start () {
 
@@ -37,4 +40,17 @@ function storeTrash() {
 
 function pickUpTrash() {
 	currentTrash += cachedTrash;
+}
+
+function giveScore(type) {
+	if(type == "normal") {
+		totalNormal = totalNormal +1;
+		totalScore = totalScore +100;
+		Debug.Log("Normal = " + totalNormal + " and Score = " + totalScore);
+	} else if(type == "locked") {
+		totalLocked = totalLocked +1;
+		totalScore = totalScore +500;
+		Debug.Log("Normal = " + totalNormal + " and Score = " + totalScore);
+
+	}
 }
