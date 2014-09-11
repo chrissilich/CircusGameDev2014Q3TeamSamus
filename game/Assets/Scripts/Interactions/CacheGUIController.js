@@ -10,7 +10,6 @@ function Update () {
 
 }
 
-var customBG : GUIStyle;
 var customLabel : GUIStyle;
 var cacheLabel : GUIStyle;
 var stashBtn : GUIStyle;
